@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    background-image: url(../img/gym2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    min-height: 100vh;
+    color: var(--dark-color);
+    line-height: 1.6;
+}
+
+
+h1,
+h2 {
+    font-weight: 300;
+    line-height: 1.2;
+}
+h4 {
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+ul {
+    list-style: none;
+}
+ol{
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: var(--dark-color);
+}
+
+p {
+    margin: 1rem 0;
+}
+
+img {
+    width: 100%;
+}
+
+footer {
+    padding: 1.5rem;
+    text-align: center;
+}
+
+form label {
+    color: var(--primary-color);
+}
+
+input {
+    padding: 0.6rem 0.2rem;
+}
